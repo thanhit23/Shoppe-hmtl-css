@@ -37,18 +37,15 @@ body {
 }
 
 .hv21op:hover {
+    color: #fff;
     opacity: 0.7 !important;
     text-decoration: none !important;
 }
-.m-10 {
-    margin: 10px;
-}
+
 .hover-cursor {
     cursor: pointer;
 }
-.al-center {
-    align-items: center;
-}
+
 .flex {
     display: flex;
 }
@@ -64,42 +61,47 @@ body {
     width: 1200px;
     display: flex;
 }
+.navbar-list{
+    color: var(--white-color);
+    align-items: center;
+    margin: 10px;
+}
+.navbar-list > a {
+    color: var(--white-color);
+}
 
-.list_item, .item_dowload {
-    /* padding: 10px 0px; */
+.list_item {
+    padding-left: 12px;
 }
 .list_item > p {
     padding: 0 10px;
     color: var(--white-color);
 }
-.seTaClT {
-
-}
 ._1baf::after {
     content: "";
     height: 15px;
+    margin: 0 10px;
     border-left: 0.5px solid #f1705a;
     border-right: 0.5px solid #f1705a;
 }
-.list_item > a, 
-.download-3app {
+/* .list_item > a {
     text-decoration: none;
     padding: 0 10px;
     color: var(--white-color);
-}
+} */
 
 .icon-down {
     margin: 1px;
 }
-.dowload-3app {
+.item_dowload{
     position: relative;
 }
-.download-3app:hover .modal-download {
+.item_dowload:hover .modal-download {
     display: block;
 }
 
 /* Modal download */
-/* .modal-download {
+.modal-download {
     display: none;
     width: 190px;
     margin-top: 7px;
@@ -115,9 +117,12 @@ body {
 }
 .download-app {
     text-align: center;
-} */
+}
 
-
+.item-icon {
+    color: var(--white-color);
+}
+ 
 .navbar-search {
     display: flex;
 
@@ -127,11 +132,40 @@ body {
     align-items: center;
 }
 .btn-login {
-    margin: 0px 10px;
     color: var(--light);
     border: none;
     background: space;
 }
 button:focus {
     outline: none !important;
+}
+.container-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 1200px;
+    display: flex;
+}
+.logoshop {
+    width: 100%;
+    border-radius: 10px;
+}
+.container-search {
+    background-color: var(--white-color);
+    height: 70%;
+    border-radius: 5px;
+}
+.form-control {
+    padding: 12px !important;
+    border: none !important;
+}
+.input-group-append {
+    margin: 4px;
+}
+.btn-input-secondary {
+    padding: 0 25px;
+    background-color: red;
+    border-radius: 5px;
+    border-color: transparent;
+    color: var(--white-color);
 }
