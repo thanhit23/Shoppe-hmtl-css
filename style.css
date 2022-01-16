@@ -1,0 +1,137 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #EE4D2D;
+    --primary-color-rgba: rgba(238, 75, 43);
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --navbar-height: 34px;
+    --header-heihgt: 120px;
+    --star-gold-color: #ffce3e;
+    --header-with-search-height: calc(var(--header-heihgt) - var(--navbar-height));
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-2-5 {width: 20%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-size: .875rem !important;
+}
+
+.hv21op:hover {
+    opacity: 0.7 !important;
+    text-decoration: none !important;
+}
+.m-10 {
+    margin: 10px;
+}
+.hover-cursor {
+    cursor: pointer;
+}
+.al-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+#main {
+    background-color: #f5f5f5;
+}
+.header {
+    background-image: linear-gradient(#ef4430,#f06230);
+}
+.container-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    display: flex;
+}
+
+.list_item, .item_dowload {
+    /* padding: 10px 0px; */
+}
+.list_item > p {
+    padding: 0 10px;
+    color: var(--white-color);
+}
+.seTaClT {
+
+}
+._1baf::after {
+    content: "";
+    height: 15px;
+    border-left: 0.5px solid #f1705a;
+    border-right: 0.5px solid #f1705a;
+}
+.list_item > a, 
+.download-3app {
+    text-decoration: none;
+    padding: 0 10px;
+    color: var(--white-color);
+}
+
+.icon-down {
+    margin: 1px;
+}
+.dowload-3app {
+    position: relative;
+}
+.download-3app:hover .modal-download {
+    display: block;
+}
+
+/* Modal download */
+/* .modal-download {
+    display: none;
+    width: 190px;
+    margin-top: 7px;
+    background-color: var(--white-color);
+    position: absolute;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 0 2px var(--border-color);
+    z-index: 400;
+}
+.download-qr {
+    width: 95%;
+}
+.download-app {
+    text-align: center;
+} */
+
+
+.navbar-search {
+    display: flex;
+
+}
+.navbar-login {
+    display: flex;
+    align-items: center;
+}
+.btn-login {
+    margin: 0px 10px;
+    color: var(--light);
+    border: none;
+    background: space;
+}
+button:focus {
+    outline: none !important;
+}
