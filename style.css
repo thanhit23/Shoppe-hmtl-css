@@ -397,6 +397,9 @@ button:focus {
     display: flex;
     padding: 10px;
 }
+.header-suggest > span {
+    color: var(--primary-color-)
+}
 .header-sale-container {
     display: flex;
     padding: 7px;
