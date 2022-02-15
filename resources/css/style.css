@@ -206,10 +206,10 @@ button:focus {
     border-radius: 5px;
     background-color: var(--white-color);
 }
-.form-control:focus {
+.form-control-search:focus {
     box-shadow: none !important;
 }
-.form-control {
+.form-control-search {
     padding: 12px !important;
     border: none !important;
 }
@@ -647,4 +647,13 @@ button:focus {
 }
 .item-footer-wrapper a i {
     margin: 5px;
+}
+/* modal-login */
+.img-fluid {
+    margin: 30px 16px;
+    border-radius: 10px;
+    height: 90% !important;
+}
+.border-none {
+    border: none !important;
 }
